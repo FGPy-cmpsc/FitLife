@@ -6,20 +6,20 @@ CONVERT_TO_MILLI_FACTOR = 1000
 
 # 1. Знакомство
 print("Привет! Познакомимся?")
-user_name = input("Введите Ваше имя: ")
-user_age = int(input("Введите Ваш возраст: "))
+user_name = input("Введи свое имя: ")
+user_age = int(input("Введи свой возраст: "))
 
 
 # 2. Сбор данных
 user_weight = float(
     input(
-        "Введите Ваш вес в кг, "
+        "Введи свой вес в кг, "
         "используя точку (например 70.5): "
     )
 )
 user_height = float(
     input(
-        "Введите Ваш рост в метрах, "
+        "Введи свой рост в метрах, "
         "используя точку (например 1.75): "
     )
 )
@@ -38,7 +38,7 @@ water_needed_l = round(water_needed_l, 1)
 print()
 print(f"{'':=>{DELIMITERS_COUNT}}")
 print(f"Отчет для пользователя: {user_name}, ({user_age} л.)")
-print(f"Ваш Индекс Массы Тела: {bmi}")
+print(f"Твой Индекс Массы Тела: {bmi}")
 print(f"Рекомендуемая норма воды: {water_needed_l} л. в день")
 print()
 print("Расчет окончен. Будьте здоровы!")
